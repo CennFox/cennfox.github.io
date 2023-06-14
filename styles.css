@@ -4,6 +4,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: darkgray;
+    user-select: none;
 }
 
 #scene {
@@ -33,4 +35,14 @@ body {
 
 .back {
     transform: rotateY(180deg);
+}
+
+#flip-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
