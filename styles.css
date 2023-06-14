@@ -37,12 +37,27 @@ body {
     transform: rotateY(180deg);
 }
 
-#flip-button {
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
+#controls {
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#flip-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#swap-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#select-card {
+    font-size: 20px;
 }
