@@ -5,21 +5,74 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="scene">
-        <div id="postcard">
-            <div class="side front">
-                <img id="front-image" src="front1.png" alt="Front of the postcard">
-            </div>
-            <div class="side back">
-                <img id="back-image" src="back1.png" alt="Back of the postcard">
-            </div>
+<div id="scene">
+    <div id="postcard1" class="postcard">
+        <div class="side front">
+            <img id="front-image1" class="front-image" src="front1.png" onerror="this.onerror=null; this.src='front69420.png' alt="Front of the postcard">
+        </div>
+        <div class="side back">
+            <img id="back-image1" class="back-image" src="back1.png" onerror="this.onerror=null; this.src='back69420.png' alt="Back of the postcard">
         </div>
     </div>
+    <div id="postcard2" class="postcard" style="display: none;">
+        <div class="side front">
+            <img id="front-image2" class="front-image" src="front1.png" onerror="this.onerror=null; this.src='front69420.png' alt="Front of the postcard">
+        </div>
+        <div class="side back">
+            <img id="back-image2" class="back-image" src="back1.png" onerror="this.onerror=null; this.src='back69420.png' alt="Back of the postcard">
+        </div>
+    </div>
+</div>
     <div id="controls">
-           <button id="swap-button" >BLACKOUT</button>
-		<button id="flip-button">FLIP IT</button>
-		
-        <select id="select-card">
+	  <button id="blackout-button" class="control-button">BLACKOUT</button>
+        <button id="advanced-button">ADVANCED PLACEMENT</button>
+        <button id="flip-button">FLIP IT</button>
+        <select id="select-card1" class="select-card">
+		    <option value="69420" selected>###CROSSWORD CARDS###</option>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+		    <option value="14">14</option>
+		    <option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+		    <option value="20">20</option>
+		    <option value="69421">###DISTANCE CARDS###</option>
+			<option value="21">1</option>
+            <option value="22">2</option>
+            <option value="23">3</option>
+            <option value="24">4</option>
+            <option value="25">5</option>
+            <option value="26">6</option>
+            <option value="27">7</option>
+            <option value="28">8</option>
+            <option value="29">9</option>
+            <option value="30">10</option>
+			<option value="31">11</option>
+			<option value="32">12</option>
+			<option value="33">13</option>
+		    <option value="34">14</option>
+		    <option value="35">15</option>
+			<option value="36">16</option>
+			<option value="37">17</option>
+			<option value="38">18</option>
+			<option value="39">19</option>
+		    <option value="40">20</option>
+			
+        </select>
+        <select id="select-card2" class="select-card" style="display: none;">
             <option value="1" selected>1</option>
             <option value="2">2</option>
             <option value="3">3</option>
